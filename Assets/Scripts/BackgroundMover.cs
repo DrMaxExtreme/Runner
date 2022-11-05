@@ -6,7 +6,7 @@ using DG.Tweening;
 public class BackgroundMover : MonoBehaviour
 {
     [SerializeField] private float _duration = 30;
-    [SerializeField] private float _tragetPositionX = -82;
+    [SerializeField] private float _tragetPositionX = -81.92f;
 
     private void Start()
     {
