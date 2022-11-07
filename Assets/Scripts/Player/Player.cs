@@ -36,6 +36,14 @@ public class Player : MonoBehaviour
             Die();
     }
 
+    public void ApplyScore(int score)
+    {
+        if(score > 0)
+        {
+            _score += score;
+        }
+    }
+
     public void Die()
     {
         _playerLived = !_playerLived;

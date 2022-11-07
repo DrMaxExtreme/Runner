@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d73fe347a46ed54b816ec6c8acf2bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _moveSpeed: 10
+  _moveSpeed: 13.33
   _stepSize: 3
   _maxHeight: 3
   _minHeight: -3
@@ -175,5 +175,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.19}
+  m_Size: {x: 0.265, y: 0.18}
   m_EdgeRadius: 0
