@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
         HealthChanged?.Invoke(_health);
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
          _score++;
          ScoreChanged?.Invoke(_score);

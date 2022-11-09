@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class Spawner : ObjectPool
 {
-    [SerializeField] private GameObject _enemyPrefab;
+    [SerializeField] private GameObject[] _enemyTemplates;
     [SerializeField] private Transform[] _spawnPoints;
     [SerializeField] private float _secondsBetweenSpawn;
     [SerializeField] private float _difficaltyMultiplier;
@@ -17,7 +17,7 @@ public class Spawner : ObjectPool
     {
         float finalSecondsBetweenSpawn = _secondsBetweenSpawn / _difficaltyMultiplier;
 
-        Initialize(_enemyPrefab);
+        Initialize(_enemyTemplates);
 
         DOTween.To(ChangeDifficalty, _secondsBetweenSpawn, finalSecondsBetweenSpawn, _secondsChangeDifficalty);
     }

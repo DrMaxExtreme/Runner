@@ -208,7 +208,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 81.3
+  m_fontSize: 81.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -271,7 +271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7437454963783924210, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7437454963783924210, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -329,6 +329,14 @@ PrefabInstance:
       propertyPath: _secondsChangeDifficalty
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
+      propertyPath: _enemyTemplates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
+      propertyPath: _enemyTemplates.Array.data[0]
+      value: 
+      objectReference: {fileID: 8761781680176643918, guid: 3eb0a0ec53860f24885147987a314629, type: 3}
     - target: {fileID: 7437454963783924221, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: m_Name
       value: Coin spawner
@@ -421,7 +429,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80.4
+  m_fontSize: 80.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -498,7 +506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7437454963783924210, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7437454963783924210, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -556,6 +564,14 @@ PrefabInstance:
       propertyPath: _secondsChangeDifficalty
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
+      propertyPath: _enemyTemplates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
+      propertyPath: _enemyTemplates.Array.data[0]
+      value: 
+      objectReference: {fileID: 8064781169304887001, guid: c3ccce2a12c70794c91b2faed9ed7fce, type: 3}
     - target: {fileID: 7437454963783924221, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: m_Name
       value: Enemy ships spawner
@@ -792,7 +808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7437454963783924210, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7437454963783924210, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -850,6 +866,14 @@ PrefabInstance:
       propertyPath: _secondsChangeDifficalty
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
+      propertyPath: _enemyTemplates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
+      propertyPath: _enemyTemplates.Array.data[0]
+      value: 
+      objectReference: {fileID: 4966991771733548027, guid: 10374f43192d67a448e4bf52bea03780, type: 3}
     - target: {fileID: 7437454963783924221, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: m_Name
       value: Treatment spawner
@@ -941,7 +965,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 71.65
+  m_fontSize: 71.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1076,7 +1100,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 51.6
+  m_fontSize: 51.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1582,7 +1606,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80.4
+  m_fontSize: 80.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1855,7 +1879,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.7
+  m_fontSize: 53.65
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1928,17 +1952,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -7
       objectReference: {fileID: 0}
+    - target: {fileID: 1787546116588326244, guid: 5bc4e36dd065a39408fc1f1739f608fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1787546116588326251, guid: 5bc4e36dd065a39408fc1f1739f608fe, type: 3}
       propertyPath: _stepSize
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1787546116588326251, guid: 5bc4e36dd065a39408fc1f1739f608fe, type: 3}
       propertyPath: _maxHeight
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1787546116588326251, guid: 5bc4e36dd065a39408fc1f1739f608fe, type: 3}
       propertyPath: _minHeight
-      value: -4
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 2285274844862512693, guid: 5bc4e36dd065a39408fc1f1739f608fe, type: 3}
       propertyPath: m_Name
@@ -2047,7 +2075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: _capacity
-      value: 16
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: _enemyPrefab
@@ -2066,6 +2094,10 @@ PrefabInstance:
       value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
+      propertyPath: _enemyTemplates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: _spawnPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1729328635}
@@ -2077,6 +2109,10 @@ PrefabInstance:
       propertyPath: _spawnPoints.Array.data[2]
       value: 
       objectReference: {fileID: 1364898311}
+    - target: {fileID: 7437454963783924211, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
+      propertyPath: _enemyTemplates.Array.data[0]
+      value: 
+      objectReference: {fileID: 3560340638873437242, guid: a42fe412689f7bf40972af0b4e0d0840, type: 3}
     - target: {fileID: 7437454963783924221, guid: 4b0b989c233a00d469b7ade655bd802c, type: 3}
       propertyPath: m_Name
       value: Enemy meteors spawner
