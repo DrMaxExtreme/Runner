@@ -25,8 +25,7 @@ public class ObjectPool : MonoBehaviour
     {
         for (int i = 0; i < _capacity; i++)
         {
-            int randomIndex = Random.Range(0, prefabs.Length);
-            GameObject spawned = Instantiate(prefabs[randomIndex], _container.transform);
+            GameObject spawned = Instantiate(prefabs[QuadraticCalculationRandomIndex(prefabs.Length)], _container.transform);
             spawned.SetActive(false);
 
             _pool.Add(spawned);
@@ -38,5 +37,16 @@ public class ObjectPool : MonoBehaviour
         result = _pool.FirstOrDefault(p => p.activeSelf == false);
 
         return result != null;
+    }
+
+    private int QuadraticCalculationRandomIndex(int spawnPointsLength)
+    {
+        float extent = 2;
+
+        float quadraticIndex = Random.Range(0, Mathf.Pow(System.Convert.ToSingle(spawnPointsLength), extent));
+
+        int spawnPointNumber = Random.Range(0, Mathf.RoundToInt(Mathf.Pow(quadraticIndex, 1 / extent)));
+
+        return spawnPointNumber;
     }
 }
