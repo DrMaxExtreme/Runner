@@ -30,7 +30,9 @@ public class Player : MonoBehaviour
     public void ApplyDamage(int damage)
     {
         _health -= damage;
-        HealthChanged?.Invoke(_health);
+
+        if(_health > 0)
+            HealthChanged?.Invoke(_health);
 
         if (_health <= 0)
             Die();
